@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    /* margin:0;
+    padding: 0; */
+}
+
+/* Juan helped me get the images right */
+
+body{
+    background-image: url(https://media.giphy.com/media/l3c614V12UA82q1vG/giphy.gif);
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+p{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 27px;
+}
+#choose{
+    text-align: center;
+}
+
+.scoreboard{
+    margin-left: 47%;
+}
+
+button{
+    padding:9px;
+    border:3px solid black;
+}
+
+button:nth-of-type(1){
+    margin-left: 40%;
+}
+
+
+button:hover{
+    background-color: pink;
+}
+#status{
+    margin-left: 42%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+    color:rgb(247,209,132);
+
+}
+h1{
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    font-size: 54px;
+}
+
+.rock{
+    float:left;
+}
+.konan{
+    float:right;
+}
+.character{
+    z-index: -1;
+    height:50vh;
+}
+.container{
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+.ed{
+    height:21vh;
+    margin-left:41%;
+    margin-top:9px;
+    
+}
