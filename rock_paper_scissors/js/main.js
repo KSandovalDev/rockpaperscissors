@@ -1,7 +1,6 @@
 
 // Anvy, Dash and I worked to debug your code//
 
-
 var botScore=0,
 	playerScore=0;
 
